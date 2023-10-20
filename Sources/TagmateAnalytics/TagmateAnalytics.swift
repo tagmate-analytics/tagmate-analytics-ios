@@ -19,7 +19,7 @@ class TagmateAnalytics{
     let apiUrl: String = "https://debugger-dev.tagmate.app/api/v1/debugger/appRequests/check/device"
     
     
-    static func configure(){
+    public static func configure(){
         print("Firebase will initialize here....")
         FirebaseApp.configure()
         
