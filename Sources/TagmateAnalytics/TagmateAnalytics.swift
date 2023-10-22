@@ -10,7 +10,7 @@ import FirebaseAnalytics
 import Firebase
 
 
-class TagmateAnalytics{
+public class TagmateAnalytics{
     
     var optionalValue: String!
     var bundleId: String!
